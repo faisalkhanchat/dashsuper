@@ -1,0 +1,90 @@
+
+.social-icon-bar
+{
+    margin: 0px;padding: 2% 0;   
+}
+
+.social-icon-bar{position: relative;}
+.social {
+    
+    padding:2% 0%;
+    width: 100%;
+    top: 0%;
+    text-align: center;
+    transform: translateY(0%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px dashed #777;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 40px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 15px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: tomato;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.social .link.skype {
+  background-color:#00acee;
+  color: white;
+}
+.link-text
+{
+    margin-top: -2%;
+    margin-right: 2%;
+    padding: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 100px;
+}
+.link-text span
+{
+    font-size:65px;color:#00ACEE;;padding: 0px; font-family: 'Raleway', sans-serif; font-weight: 100;
+}
+.link-text strong
+{
+color: #ccc;padding: 0px; margin: 0px;
+}

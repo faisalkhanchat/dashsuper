@@ -1,0 +1,62 @@
+#homeSocial {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 30px;
+	z-index: 99;
+}
+#homeSocial .socialBtn {
+    margin-bottom: 4px;
+}
+.facebook {
+    background-image: url(../images/fb_icon.png);
+    background-color:  #686868; !important;
+}
+.twitter {
+    background-image: url(../images/tw_icon.png);
+	background-color: #686868; !important;
+    
+}
+.linkin {
+    background-image: url(../images/in-icon.png);
+	background-color: #686868; !important;
+    
+}
+.google {
+    background-image: url(../images/g-icon.png);
+	background-color: #686868; !important;
+    
+}
+.blog {
+    background-image: url(../images/blog.html);
+	background-color: #686868; !important;
+    
+}
+.socialBtn {
+    width: 30px;
+    height: 30px;
+    background-color: #535353;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: block;
+    transition: all .5s ease;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.socialBtn:hover{
+	background-color:#b21012 !important;
+}
+a {
+	text-decoration: none;
+	color: inherit
+}
+a:focus, a:hover {
+	color:#f15a29;
+	text-decoration: none
+}
+a:focus {
+	outline: 0
+}
